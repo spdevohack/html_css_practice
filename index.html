@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>conflicts</title>
+    <style type="text/css">
+    table,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2px;
+        /*border-radius: 10px;
+			border-spacing: 10px;*/
+
+    }
+
+    /*td {
+			background-color: yellow ;
+		}
+
+		th  {
+			background-color: indianred;
+		}*/
+    /*th:nth-child(even), td:nth-child(even) {
+			background-color: cyan;
+		}*/
+
+    tr:nth-child(odd) {
+        background-color: lightgray;
+    }
+
+    th,
+    td {
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>It changes you</h1>
+    <p style="color: aqua">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </p>
+    <table width="100%">
+        <caption>Employee Details</caption>
+        <tr>
+            <th>E_id.</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>Sachin</td>
+            <td>7678549703</td>
+            <td>30,000</td>
+        </tr>
+        <tr>
+            <td>1002</td>
+            <td>Satyam</td>
+            <td>8789764930</td>
+            <td>28,000</td>
+        </tr>
+        <tr>
+            <td>1003</td>
+            <td>Ravinder</td>
+            <td>9809878900</td>
+            <td>28,000</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <p>
+        <h1>Create Form</h1>
+    </p><br>
+    <form>
+        <fieldset>
+            <legend>Personal Details:</legend>
+            <label for="fname"> First Name: </label>
+            <input type="text" name="fname" id="fname" placeholder="Enter First name" autofocus> <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter last name "> <br><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="Date" name="Birthday" id="dob"> <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="Enter email address"> <br><br>
+            <label for="user">Username:</label>
+            <input type="text" name="text" id="user" placeholder="Enter Username" required> <br><br>
+            <label for="pswd">Password:</label>
+            <input type="password" name="password" id="pswd" placeholder="Enter Password" required> <br><br>
+            <label for="pic">Choose photo:</label>
+            <input type="file" name="photo" id="pic"> <br><br>
+        </fieldset>
+        <p>
+            <h3>Gender</h3>
+        </p>
+        <input type="radio" id="male" name="gender" value="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="gender">
+        <label for="Female">Female</label><br>
+        <input type="radio" id="Transgender" name="gender" value="gender">
+        <label for="Transgender">Transgender</label><br>
+        <p>
+            <h2>Occupation</h2>
+        </p> <br>
+        <input type="checkbox" id="student" name="student" value="student">
+        <label for=student> Student</label>
+        <input type="checkbox" id="teacher" name="teacher" value="teacher">
+        <label for=teacher> Teacher</label>
+        <p>
+            <h2>Choose Identity For Proof</h2>
+        </p>
+        <label for="identity">Choose One Identity</label>
+        <select id="identity" name="identity">
+            <option name="Addhar">Addhar Card</option>
+            <option name="pancard">Pan Card</option>
+            <option name="license">Driving License</option>
+            <option name="voterid">Voter Id</option>
+            <option name="passport">Pass Port</option>
+        </select>
+        <input type="submit" value="Submit">
+        <br>
+        <button style="background-color : red;" "padding : 5px ;" type="buttom" onclick="alert('Your Data is Submitted. Thank You!!!')">Click Me</button><br>
+        <input type="color" name="color" value=#ff00a3><br>
+        1 <input type="range" name="numbers">10000
+    </form>
+    <br>
+    <!-- <canvas id="mycanvas1"  width="50" height="35" style = "border: 1px solid black;"></canvas> -->
+    <svg width="200" height="200">
+        <circle cx="80" cy="80" r="60" stroke="yellow" stroke-width="5" fill="red" />
+    </svg>
+    <svg width="400" height="400">
+        <rect x="50" cy="80" r="50" rx="30" ry="30" width="200" height="200" stroke="blue" stroke-width="5" fill="pink" />
+    </svg>
+    <svg width="1000" height="1000">
+        <polygon points="150,65 90, 178  250, 320 164, 450 100, 400" stroke="blue" stroke-width="5" fill="pink" />
+    </svg>
+    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY " autoplay width="500" height="400">Youtube video</iframe>
+
+    <video width="500" height="400" autoplay muted> 
+    	<source src="/home/sachin/Downloads/kusu.mp4" type="video/mp4">
+    </video>
+</body>
+
+</html>
