@@ -5,141 +5,235 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>conflicts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/a82551844f.js" crossorigin="anonymous"></script>
     <style type="text/css">
-    table,
+
+
+    body {
+        color: whitesmoke;
+        background-color: black ;
+        /* background-image: url("/home/sachin/Desktop/Web-transparent.png");*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: 'Lato', sans-serif;
+    }
+
+
+    .content {
+        background-color: darkgray;
+
+    }
+
+    .content h1 {
+        font-size: 45px;
+        color: crimson;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+
+
+    }
+
+    .content p {
+        font-size: 20px;
+        color: yellow;
+
+    }
+
+    .tbl {
+        margin-top: 20px;
+        padding-top: 8px;
+    }
+
+    .tbl caption {
+        font-size: 50px;
+        background-color: grey;
+        font-family: 'Josefin Sans', sans-serif;
+
+
+    }
+
+    .tbl thead, thead{
+        background-color: green;
+        margin-top: 10px;
+    } 
+
+
+
+    /*table,
     td,
     th {
         border: 1px solid black;
         border-collapse: collapse;
-        padding: 2px;
+        padding: 2px;*/
         /*border-radius: 10px;
-			border-spacing: 10px;*/
-
-    }
-
-    /*td {
-			background-color: yellow ;
-		}
-
-		th  {
-			background-color: indianred;
-		}*/
+            border-spacing: 10px;
+            /*th  {
+            background-color: indianred;
+        }*/
     /*th:nth-child(even), td:nth-child(even) {
-			background-color: cyan;
-		}*/
+            background-color: cyan;
+        }*/
 
-    tr:nth-child(odd) {
-        background-color: lightgray;
-    }
+    /*}*/
 
-    th,
     td {
-        text-align: center;
-    }
+            background-color: dimgrey;
+        }
 
-    body {
-        color: #ff00ee;
-        background-color: #a5c5e5;
-      background-image: url("/home/sachin/Desktop/Web-transparent.png");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
+    th, td {
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+
+    } 
+
+    tr:nth-child(even) {
+        background-color: lightgray;
+        
     }
+   .frm1  h1 {
+        text-align: center;
+   }
+
+        
+
+    
+
     </style>
 </head>
 
 <body>
-    <h1>It changes you</h1>
-    <p style="color: aqua">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. </p>
-    <table width="100%">
-        <caption>Employee Details</caption>
-        <tr>
-            <th>E_id.</th>
-            <th>Name</th>
-            <th>Contact</th>
-            <th>Salary</th>
-        </tr>
-        <tr>
-            <td>1001</td>
-            <td>Sachin</td>
-            <td>7678549703</td>
-            <td>30,000</td>
-        </tr>
-        <tr>
-            <td>1002</td>
-            <td>Satyam</td>
-            <td>8789764930</td>
-            <td>28,000</td>
-        </tr>
-        <tr>
-            <td>1003</td>
-            <td>Ravinder</td>
-            <td>9809878900</td>
-            <td>28,000</td>
-        </tr>
-    </table>
+    <div class="content">
+        <strong><h1>DEVOHACK</h1></strong>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </div>
+    <div>
+        <table width="100%" class="tbl">
+            <caption>Employee Details</caption>
+            <thead>
+                <tr>
+                    <th>E_id.</th>
+                    <th>Name</th>
+                    <th>Contact</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>1001</td>
+                <td>Sachin</td>
+                <td>7678549703</td>
+                <td>30,000</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>Satyam</td>
+                <td>8789764930</td>
+                <td>28,000</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Ravinder</td>
+                <td>9809878900</td>
+                <td>28,000</td>
+            </tr>
+
+            <tr>
+                <td>1005</td>
+                <td>Smridhi</td>
+                <td>980987897</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>1006</td>
+                <td>Pooja</td>
+                <td>9809567044</td>
+                <td>35,000</td>
+            </tr>
+            <tr>
+                <td>1007</td>
+                <td>Rani</td>
+                <td>980923002</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>1008</td>
+                <td>Gunnu</td>
+                <td>7838032783</td>
+                <td>40,000</td>
+            </tr>
+        </table>
+    </div>
     <br>
     <br>
-    <p>
-        <h1>Create Form</h1>
-    </p><br>
-    <form>
-        <fieldset>
-            <legend>Personal Details:</legend>
-            <label for="fname"> First Name: </label>
-            <input type="text" name="fname" id="fname" placeholder="Enter First name" autofocus> <br><br>
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname" placeholder="Enter last name "> <br><br>
-            <label for="dob">Date Of Birth:</label>
-            <input type="Date" name="Birthday" id="dob"> <br><br>
-            <label for="email">Email Address:</label>
-            <input type="email" name="email" id="email" placeholder="Enter email address"> <br><br>
-            <label for="user">Username:</label>
-            <input type="text" name="text" id="user" placeholder="Enter Username" required> <br><br>
-            <label for="pswd">Password:</label>
-            <input type="password" name="password" id="pswd" placeholder="Enter Password" required> <br><br>
-            <label for="pic">Choose photo:</label>
-            <input type="file" name="photo" id="pic"> <br><br>
-        </fieldset>
+    <div class="frm1">
         <p>
-            <h3>Gender</h3>
-        </p>
-        <input type="radio" id="male" name="gender" value="gender">
-        <label for="male">Male</label><br>
-        <input type="radio" id="Female" name="gender" value="gender">
-        <label for="Female">Female</label><br>
-        <input type="radio" id="Transgender" name="gender" value="gender">
-        <label for="Transgender">Transgender</label><br>
-        <p>
-            <h2>Occupation</h2>
-        </p> <br>
-        <input type="checkbox" id="student" name="student" value="student">
-        <label for=student> Student</label>
-        <input type="checkbox" id="teacher" name="teacher" value="teacher">
-        <label for=teacher> Teacher</label>
-        <p>
-            <h2>Choose Identity For Proof</h2>
-        </p>
-        <label for="identity">Choose One Identity</label>
-        <select id="identity" name="identity">
-            <option name="Addhar">Addhar Card</option>
-            <option name="pancard">Pan Card</option>
-            <option name="license">Driving License</option>
-            <option name="voterid">Voter Id</option>
-            <option name="passport">Pass Port</option>
-        </select>
-        <input type="submit" value="Submit">
+            <strong><h1>EMPLOYEE DETAIL FORM</h1></strong>
+        </p><br>
+        <form>
+            <fieldset>
+                <legend>Personal Details:</legend>
+                <label for="fname"> First Name: </label>
+                <input type="text" name="fname" id="fname" placeholder="Enter First name" autofocus> <br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter last name "> <br><br>
+                <label for="dob">Date Of Birth:</label>
+                <input type="Date" name="Birthday" id="dob"> <br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="Enter email address"> <br><br>
+                <label for="user">Username:</label>
+                <input type="text" name="text" id="user" placeholder="Enter Username" required> <br><br>
+                <label for="pswd">Password:</label>
+                <input type="password" name="password" id="pswd" placeholder="Enter Password" required> <br><br>
+                <label for="pic">Choose photo:</label>
+                <input type="file" name="photo" id="pic"> <br><br>
+            </fieldset>
+            <p>
+                <h3>Gender</h3>
+            </p>
+            <input type="radio" id="male" name="gender" value="gender">
+            <label for="male">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="gender">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Transgender" name="gender" value="gender">
+            <label for="Transgender">Transgender</label><br>
+            <p>
+                <h2>Occupation</h2>
+            </p> <br>
+            <input type="checkbox" id="student" name="student" value="student">
+            <label for=student> Student</label>
+            <input type="checkbox" id="teacher" name="teacher" value="teacher">
+            <label for=teacher> Teacher</label>
+            <p>
+                <h2>Choose Identity For Proof</h2>
+            </p>
+            <label for="identity">Choose One Identity</label>
+            <select id="identity" name="identity">
+                <option name="Addhar">Addhar Card</option>
+                <option name="pancard">Pan Card</option>
+                <option name="license">Driving License</option>
+                <option name="voterid">Voter Id</option>
+                <option name="passport">Pass Port</option>
+            </select>
+            <input type="submit" value="Submit">
+            <br>
+            <button style="background-color : red;" "padding : 5px ;" type="buttom" onclick="alert('Your Data is Submitted. Thank You!!!')">Click Me</button><br>
+            <input type="color" name="color" value=#ff00a3><br>
+            1 <input type="range" name="numbers">10000
+        </form>
         <br>
-        <button style="background-color : red;" "padding : 5px ;" type="buttom" onclick="alert('Your Data is Submitted. Thank You!!!')">Click Me</button><br>
-        <input type="color" name="color" value=#ff00a3><br>
-        1 <input type="range" name="numbers">10000
-    </form>
-    <br>
+    </div>
     <!-- <canvas id="mycanvas1"  width="50" height="35" style = "border: 1px solid black;"></canvas> -->
-    <svg width="200" height="200">
+    <!-- <svg width="200" height="200">
         <circle cx="80" cy="80" r="60" stroke="yellow" stroke-width="5" fill="red" />
     </svg>
     <svg width="400" height="400">
@@ -147,12 +241,18 @@
     </svg>
     <svg width="1000" height="1000">
         <polygon points="150,65 90, 178  250, 320 164, 450 100, 400" stroke="blue" stroke-width="5" fill="pink" />
-    </svg>
-    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY " autoplay width="500" height="400">Youtube video</iframe>
+    </svg> -->
+    <!-- <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY " autoplay width="500" height="400">Youtube video</iframe>
 
     <video width="500" height="400"  controls> 
-    	<source src="/home/sachin/Downloads/kusu.mp4" type="video/mp4">
-    </video>
+        <source src="/home/sachin/Downloads/kusu.mp4" type="video/mp4">
+    </video> -->
+    <div class="footer1">
+        <footer>
+        <i class="fas fa-ambulance" style="font-size: 40px;"></i>
+        <i class="fas fa-cloud-rain" style="font-size: 40px ; color: red;"></i>
+        </footer>
+    </div>
 </body>
 
 </html>
